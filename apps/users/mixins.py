@@ -21,3 +21,4 @@ class CustomLoginRequiredMixin():
 
         request.login_user = login_user[0]
         return super().dispatch(request, *args, **kwargs)
+
